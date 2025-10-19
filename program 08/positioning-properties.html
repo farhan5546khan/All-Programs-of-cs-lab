@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Positioning Properties Example</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 400px;
+            height: 250px;
+            margin: 40px auto;
+            position: relative;              /* parent element */
+            border: 3px solid black;
+            background-color: white;
+        }
+
+        .box1 {
+            width: 80px;
+            height: 80px;
+            background-color: tomato;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .box2 {
+            width: 80px;
+            height: 80px;
+            background-color: limegreen;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Positioning Properties Example</h1>
+
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+    </div>
+
+</body>
+</html>
